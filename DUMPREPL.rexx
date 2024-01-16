@@ -24,8 +24,6 @@ do Z = 1 to DUMPST.0
     current_loc = pos(OLDSTR,DUMPST.Z,index)
     x = current_loc-1
     y = current_loc + length(NEWSTR)
-    say x 
-    say y
     NDUMPST.Z = substr(NDUMPST.Z,1,x)||NEWSTR||substr(NDUMPST.Z,y)
     index = current_loc + 1  
   end
