@@ -8,8 +8,9 @@ LOWERCASE = "abcdefghijklmnopqrstuvwxyz"
 ALLDIGITS = "1234567890" 
 debruj.1 = debrujin(len) 
 debruj.0 = 1 
-                                                                         
-"ALLOC DA('"JAKE.FB32760"(TESTDEB)') F(TESTDEB) SHR REUSE" 
+
+dsn = "JAKE.FB4096"
+"ALLOC DA('"dsn"(TESTDEB)') F(TESTDEB) SHR REUSE" 
 "EXECIO * DISKW TESTDEB (STEM debruj. FINIS" 
 "FREE F(TESTDEB)" 
                                                                          
